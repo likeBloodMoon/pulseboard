@@ -39,7 +39,7 @@ The agent does not execute arbitrary commands or accept free-form scripts.
 [ Next.js API / Backend ]
             |
             v
-[ Postgres ]
+[ Postgres(not yet in 1.0) ]
             |
             v
 [ Next.js Dashboard UI ]  <-- SSE for live updates
