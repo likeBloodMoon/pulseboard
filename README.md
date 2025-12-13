@@ -45,7 +45,9 @@ The agent does not execute arbitrary commands or accept free-form scripts.
 ## Screenshots
 
 ![image](https://github.com/user-attachments/assets/7cb0fc01-e7ec-4ff6-af8e-8bd0eb020767)
-<img width="1075" height="920" alt="image" src="https://github.com/user-attachments/assets/11746614-c270-462c-b61a-73051df1c373" />
+<img width="1108" height="906" alt="image" src="https://github.com/user-attachments/assets/ff0ca1d4-32b6-4dca-9619-eb68afe4efec" />
+<img width="1106" height="920" alt="image" src="https://github.com/user-attachments/assets/d7a4a103-e629-4d99-8b9b-a1d93d272bd9" />
+
 
 ## Tech Stack (Current)
 
