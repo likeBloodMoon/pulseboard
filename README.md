@@ -21,6 +21,7 @@ Pulseboard is a self-hosted device monitoring and remote diagnostics dashboard: 
 
 The agent does not execute arbitrary commands or accept free-form scripts.
 
+
 - Jobs are allowlisted and validated server-side
 - Each agent token is scoped to one device and stored hashed on the server
 - Transport is HTTPS; the agent only talks to the Pulseboard API
@@ -43,7 +44,7 @@ The agent does not execute arbitrary commands or accept free-form scripts.
 
 ## Screenshots
 
-Coming soon: device list, metrics table, temperature cards, and the network diagnostics panel.
+![image](https://github.com/user-attachments/assets/7cb0fc01-e7ec-4ff6-af8e-8bd0eb020767)
 
 ## Tech Stack (Current)
 
