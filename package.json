@@ -1,0 +1,17 @@
+{
+  "name": "pulseboard",
+  "private": true,
+  "version": "0.1.0",
+  "engines": {
+    "node": ">=20 <21"
+  },
+  "workspaces": [
+    "apps/web"
+  ],
+  "scripts": {
+    "dev": "npm --workspace apps/web run dev",
+    "build": "npm --workspace apps/web run build",
+    "start": "npm --workspace apps/web run start",
+    "lint": "npm --workspace apps/web run lint"
+  }
+}
