@@ -2,6 +2,9 @@
 
 Pulseboard is a self-hosted device monitoring and remote diagnostics dashboard: a real-time web UI backed by a lightweight Windows/PowerShell agent that reports health metrics and runs a small set of safe, allowlisted diagnostics.
 
+> **Disclaimer**  
+> These tools are provided **as-is**. I am not liable for any system issues or damages resulting from their use.
+
 ## Status
 
 - Work in progress; not production-ready.
