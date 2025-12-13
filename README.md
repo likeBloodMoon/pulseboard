@@ -17,8 +17,6 @@ Pulseboard is a self-hosted device monitoring and remote diagnostics dashboard: 
 - Live updates to the UI via Server-Sent Events (SSE)
 - Metrics collection + history (CPU, RAM, Disk, Network)
 - Temperature telemetry support (CPU/GPU/board + sensor list, where available)
-- Remote diagnostics as "jobs" (network checks, system snapshot) with logs + stored results
-- Postgres-backed persistence for devices, metrics, and jobs
 
 ## Safety Model (Agent)
 
