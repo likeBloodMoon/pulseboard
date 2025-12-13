@@ -1,0 +1,14 @@
+{
+  "baseUrl": "http://localhost:3000",
+  "deviceId": "00000000-0000-0000-0000-000000000000",
+  "agentToken": "replace-with-enrolled-token",
+  "pollIntervalSeconds": 5,
+  "metricsIntervalSeconds": 1,
+  "networkProbeIntervalSeconds": 10,
+  "networkTargets": ["gateway", "1.1.1.1", "8.8.8.8"],
+  "networkDnsTestHost": "one.one.one.one",
+  "enablePublicIp": false,
+  "jobLogBatchSize": 50,
+  "skipCertificateValidation": false,
+  "metricsLogPath": "../agent-metrics.log"
+}
