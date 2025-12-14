@@ -12,7 +12,6 @@ Pulseboard is a self-hosted device monitoring and remote diagnostics dashboard: 
 ## What's Working So Far
 
 - Dashboard UI for a fleet of devices (online/offline, last seen, quick status)
-- Authentication with basic roles (Admin / Viewer)
 - Device enrollment flow using per-device agent tokens
 - Live updates to the UI via Server-Sent Events (SSE)
 - Metrics collection + history (CPU, RAM, Disk, Network)
@@ -54,7 +53,6 @@ The agent does not execute arbitrary commands or accept free-form scripts.
 
 - Frontend: Next.js (App Router), TypeScript
 - Backend: Next.js route handlers (API), SSE, Prisma
-- Database: PostgreSQL
 - Auth: per-device agent tokens (hashed) (UI auth is planned)
 - Agent: PowerShell 7 (foreground or scheduled task)
 
