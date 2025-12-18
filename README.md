@@ -48,6 +48,27 @@ The agent does not execute arbitrary commands or accept free-form scripts.
 <img width="1279" height="876" alt="image" src="https://github.com/user-attachments/assets/a9f11e9f-66df-4aa2-a073-0e376dd6b6b8" />
 <img width="1106" height="920" alt="image" src="https://github.com/user-attachments/assets/d7a4a103-e629-4d99-8b9b-a1d93d272bd9" />
 
+Create credentials for `.env.local`:
+
+1) Pick a username (stored as `PULSEBOARD_ADMIN_USER`)
+2) Generate a bcrypt password hash (stored as `PULSEBOARD_ADMIN_PASS_HASH`)
+3) Generate a random session secret (stored as `PULSEBOARD_SESSION_SECRET`)
+
+Generate a bcrypt hash (stored as `b64:...` to avoid `$...` expansion issues in dotenv tooling):
+
+```bash
+node -e "require('bcrypt').hash(process.argv[1], 10).then(h=>console.log('b64:'+Buffer.from(h).toString('base64')))" "your-password-here"
+node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
+```
+
+Example `apps/web/.env.local`:
+
+```bash
+PULSEBOARD_ADMIN_USER=admin
+PULSEBOARD_ADMIN_PASS_HASH=b64:PASTE_OUTPUT_FROM_BCRYPT_COMMAND
+PULSEBOARD_SESSION_SECRET=PASTE_OUTPUT_FROM_SECRET_COMMAND
+```
+
 
 ## Tech Stack (Current)
 
