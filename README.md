@@ -47,8 +47,10 @@ The agent does not execute arbitrary commands or accept free-form scripts.
 <img width="1857" height="928" alt="image" src="https://github.com/user-attachments/assets/1791ea7d-1dcc-40d3-95be-516cb339f67b" />
 <img width="1279" height="876" alt="image" src="https://github.com/user-attachments/assets/a9f11e9f-66df-4aa2-a073-0e376dd6b6b8" />
 <img width="1106" height="920" alt="image" src="https://github.com/user-attachments/assets/d7a4a103-e629-4d99-8b9b-a1d93d272bd9" />
+<img width="1797" height="916" alt="image" src="https://github.com/user-attachments/assets/2479231a-5d9e-43ee-b0bd-e09eaf1bb528" />
 
-Create credentials for `.env.local`:
+
+## Create credentials for `.env.local`:
 
 1) Pick a username (stored as `PULSEBOARD_ADMIN_USER`)
 2) Generate a bcrypt password hash (stored as `PULSEBOARD_ADMIN_PASS_HASH`)
